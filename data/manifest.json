@@ -5563,5 +5563,29 @@
     "closing_date": "23-11-2026 09:00 am",
     "document_url": "https://www.spc.lk/admin/api/tenders/document/35418",
     "filename": "DHS_SS_ICB_235_2027.pdf"
+  },
+  {
+    "tender_no": "DHS/SS/NCB/79/2027",
+    "original_tender_no": "DHS/SS/NCB/79/2027",
+    "category": "DHS/SS",
+    "procurement_type": "NCB",
+    "status": "Open",
+    "closing_date": "28-10-2026 09:00 am",
+    "view_url": "https://www.spc.lk/viewTender.php?hash=10879cea08dd928b97343a235ffb79360ba95d8607b0c95265011d53e97579b7&url=https%3A%2F%2Fwww.spc.lk%2Fadmin%2Fapi%2Ftenders%2Fdocument%2F35421&id=35421",
+    "document_url": "https://www.spc.lk/admin/api/tenders/document/35421",
+    "document_id": "35421",
+    "filename": "DHS_SS_NCB_79_2027.pdf"
+  },
+  {
+    "tender_no": "DHS/SS/NCB/80/2027",
+    "original_tender_no": "DHS/SS/NCB/80/2027",
+    "category": "DHS/SS",
+    "procurement_type": "NCB",
+    "status": "Open",
+    "closing_date": "28-10-2026 09:00 am",
+    "view_url": "https://www.spc.lk/viewTender.php?hash=d24e8f1dc061d8fcaf3a1754c9b3e2f2abe31b2b52072dbdcccaa180d56c4963&url=https%3A%2F%2Fwww.spc.lk%2Fadmin%2Fapi%2Ftenders%2Fdocument%2F35422&id=35422",
+    "document_url": "https://www.spc.lk/admin/api/tenders/document/35422",
+    "document_id": "35422",
+    "filename": "DHS_SS_NCB_80_2027.pdf"
   }
 ]
