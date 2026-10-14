@@ -4,7 +4,9 @@
 [![Latest Release](https://img.shields.io/github/v/release/budd9442/spc-tenders?color=blue)](https://github.com/budd9442/spc-tenders/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Automated pipeline that monitors the State Pharmaceuticals Corporation (SPC) of Sri Lanka tender portal, extracts Schedule of Requirements tables from PDF tenders, and publishes Excel and CSV datasets via GitHub Releases.
+## About
+
+Daily extraction pipeline for Sri Lanka State Pharmaceuticals Corporation (SPC) and Directorate of Healthcare Services (DHS) tenders. Automatically extracts Schedule of Requirements tables from PDF tenders into Excel and CSV datasets.
 
 ## Releases
 
@@ -26,3 +28,21 @@ Automated pipeline that monitors the State Pharmaceuticals Corporation (SPC) of 
    - Updates `all_tenders_consolidated.xlsx` and `extracted_items.csv`.
    - Commits updated tracking data to `main`.
    - Publishes a new GitHub Release with the zip and consolidated files.
+
+## Local Setup
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# Check for new tenders without downloading
+python run_sync.py --dry-run
+
+# Run full sync
+python run_sync.py
+```
+
+## License
+
+MIT
