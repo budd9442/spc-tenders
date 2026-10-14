@@ -28,10 +28,10 @@ jobs:
         run: |
           if [ -n "${{ steps.app-token.outputs.token }}" ]; then
             echo "token=${{ steps.app-token.outputs.token }}" >> $GITHUB_OUTPUT
-            echo "✅ Authenticated using GitHub App (APP_ID configured)."
+            echo "Authenticated using GitHub App (APP_ID configured)."
           else
             echo "token=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_OUTPUT
-            echo "ℹ️ Using default GITHUB_TOKEN (GitHub App secrets not configured)."
+            echo "Using default GITHUB_TOKEN (GitHub App secrets not configured)."
           fi
 
       - name: Checkout repository

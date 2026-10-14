@@ -72,7 +72,7 @@ def generate_tender_workbook(tender_record: Dict[str, Any], output_path: str):
 
     ws.merge_cells("A1:G1")
     t_cell = ws["A1"]
-    t_cell.value = f"STATE PHARMACEUTICALS CORPORATION — SCHEDULE OF REQUIREMENTS"
+    t_cell.value = f"STATE PHARMACEUTICALS CORPORATION: SCHEDULE OF REQUIREMENTS"
     t_cell.font = Font(name="Calibri", size=13, bold=True, color="1F497D")
     t_cell.alignment = Alignment(horizontal="left", vertical="center")
 

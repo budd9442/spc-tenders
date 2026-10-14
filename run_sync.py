@@ -165,7 +165,7 @@ def main():
     now_utc = datetime.now(timezone.utc)
     date_str = now_utc.strftime("%Y-%m-%d")
     tag_name = f"v{now_utc.strftime('%Y.%m.%d')}"
-    release_title = f"SPC Tenders Update — {date_str} ({len(new_tenders)} new tenders)"
+    release_title = f"SPC Tenders Update: {date_str} ({len(new_tenders)} new tenders)"
 
     new_tenders_dir = os.path.join(output_dir, f"new_tenders_{date_str}")
     os.makedirs(new_tenders_dir, exist_ok=True)
@@ -243,12 +243,12 @@ def main():
     # 8. Write release notes and outputs for GitHub Actions
     release_notes_file = os.path.join(output_dir, "release_notes.md")
     notes_content = [
-        f"## 📋 SPC Tenders Daily Extraction Update ({date_str})",
+        f"## Daily Update: {date_str}",
         "",
-        f"Automatically detected and processed **{len(new_tenders)} new tender(s)** from Sri Lanka State Pharmaceuticals Corporation.",
+        f"Processed {len(new_tenders)} new tender(s).",
         "",
-        "### 📦 Newly Processed Tenders",
-        "| Tender No | Category | Closing Date | Items Extracted | Status |",
+        "### Processed Tenders",
+        "| Tender No | Category | Closing Date | Items | Status |",
         "| :--- | :---: | :---: | :---: | :---: |"
     ]
     for nr in new_records:
@@ -257,18 +257,15 @@ def main():
         cat = "DHS/SS" if "DHS/SS" in tno.upper() or "DHS_SS" in nr.get("file_name", "") else "DHS/SA"
         closing = meta.get("closing_date") or "N/A"
         icnt = len(nr.get("items", []))
-        st = "✅ Success" if nr.get("status") == "SUCCESS" else "⚠️ Failed"
-        notes_content.append(f"| `{tno}` | {cat} | {closing} | **{icnt}** | {st} |")
+        st = "Success" if nr.get("status") == "SUCCESS" else "Failed"
+        notes_content.append(f"| `{tno}` | {cat} | {closing} | {icnt} | {st} |")
 
     notes_content.extend([
         "",
-        "### 📁 Attached Release Assets",
-        f"- **`{zip_name}`**: Zip archive containing individual stylized Excel workbooks for the **{len(new_tenders)} newly processed tenders**.",
-        f"- **`all_tenders_consolidated.xlsx`**: Updated master multi-tab spreadsheet containing all **{len(all_records)}** catalogued tenders and their items.",
-        f"- **`extracted_items.csv`**: Full consolidated CSV export with every extracted line item across all tenders.",
-        "",
-        "---",
-        "*Automated synchronization powered by [SPC Tenders Pipeline](https://github.com/budd9442/spc-tenders).*"
+        "### Assets",
+        f"- `{zip_name}`: Individual Excel workbooks for newly processed tenders.",
+        f"- `all_tenders_consolidated.xlsx`: Updated consolidated workbook across all tenders.",
+        f"- `extracted_items.csv`: Consolidated CSV export of all extracted items."
     ])
 
     with open(release_notes_file, "w", encoding="utf-8") as f:
