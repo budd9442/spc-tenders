@@ -5599,5 +5599,41 @@
     "document_url": "https://www.spc.lk/admin/api/tenders/document/35432",
     "document_id": "35432",
     "filename": "DHS_SA_NCB_42_27.pdf"
+  },
+  {
+    "tender_no": "DHS/SA/NCB/44/27",
+    "original_tender_no": "DHS/SA/NCB/44/27",
+    "category": "DHS/SA",
+    "procurement_type": "NCB",
+    "status": "Open",
+    "closing_date": "06-11-2026 09:00 am",
+    "view_url": "https://www.spc.lk/viewTender.php?hash=891588bc7df0636f015baa4d6d8e7a80a28deb523f3f64635d53ba666203e35b&url=https%3A%2F%2Fwww.spc.lk%2Fadmin%2Fapi%2Ftenders%2Fdocument%2F35463&id=35463",
+    "document_url": "https://www.spc.lk/admin/api/tenders/document/35463",
+    "document_id": "35463",
+    "filename": "DHS_SA_NCB_44_27.pdf"
+  },
+  {
+    "tender_no": "DHS/SA/NCB/43/27",
+    "original_tender_no": "DHS/SA/NCB/43/27",
+    "category": "DHS/SA",
+    "procurement_type": "NCB",
+    "status": "Open",
+    "closing_date": "06-11-2026 09:00 am",
+    "view_url": "https://www.spc.lk/viewTender.php?hash=fbeec535e4f771c55ede4fdae4fdb73b9c9f5d41db6a2e630bbd87fb6868327c&url=https%3A%2F%2Fwww.spc.lk%2Fadmin%2Fapi%2Ftenders%2Fdocument%2F35462&id=35462",
+    "document_url": "https://www.spc.lk/admin/api/tenders/document/35462",
+    "document_id": "35462",
+    "filename": "DHS_SA_NCB_43_27.pdf"
+  },
+  {
+    "tender_no": "DHS/SA/ICB/52/27",
+    "original_tender_no": "DHS/SA/ICB/52/27",
+    "category": "DHS/SA",
+    "procurement_type": "ICB",
+    "status": "Open",
+    "closing_date": "24-04-2026 09:00 am",
+    "view_url": "https://www.spc.lk/viewTender.php?hash=479a8cea6d55bbfda2e2881965fed03773bea346d817991819c2f91e9f28384a&url=https%3A%2F%2Fwww.spc.lk%2Fadmin%2Fapi%2Ftenders%2Fdocument%2F34099&id=34099",
+    "document_url": "https://www.spc.lk/admin/api/tenders/document/34099",
+    "document_id": "34099",
+    "filename": "DHS_SA_ICB_52_27.pdf"
   }
 ]
