@@ -5707,5 +5707,17 @@
     "document_url": "https://www.spc.lk/admin/api/tenders/document/35501",
     "document_id": "35501",
     "filename": "DHS_SA_NCB_48_27.pdf"
+  },
+  {
+    "tender_no": "DHS/SS/NCB/81/2027",
+    "original_tender_no": "DHS/SS/NCB/81/2027",
+    "category": "DHS/SS",
+    "procurement_type": "NCB",
+    "status": "Open",
+    "closing_date": "30-11-2026 09:00 am",
+    "view_url": "https://www.spc.lk/viewTender.php?hash=11a355c03b9bd0196dbc9cc8dc39a19344a25ba7d48540109339aa1cb0b7dc9a&url=https%3A%2F%2Fwww.spc.lk%2Fadmin%2Fapi%2Ftenders%2Fdocument%2F35521&id=35521",
+    "document_url": "https://www.spc.lk/admin/api/tenders/document/35521",
+    "document_id": "35521",
+    "filename": "DHS_SS_NCB_81_2027.pdf"
   }
 ]
