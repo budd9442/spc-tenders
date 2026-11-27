@@ -5719,5 +5719,29 @@
     "document_url": "https://www.spc.lk/admin/api/tenders/document/35521",
     "document_id": "35521",
     "filename": "DHS_SS_NCB_81_2027.pdf"
+  },
+  {
+    "tender_no": "DHS/SA/NCB/52/27",
+    "original_tender_no": "DHS/SA/NCB/52/27",
+    "category": "DHS/SA",
+    "procurement_type": "NCB",
+    "status": "Open",
+    "closing_date": "11-12-2026 09:00 am",
+    "view_url": "https://www.spc.lk/viewTender.php?hash=27c05a1edac1ae918a25a3ee87c5b7dada8f2fc7e057a0a066672da29c1c40f0&url=https%3A%2F%2Fwww.spc.lk%2Fadmin%2Fapi%2Ftenders%2Fdocument%2F35574&id=35574",
+    "document_url": "https://www.spc.lk/admin/api/tenders/document/35574",
+    "document_id": "35574",
+    "filename": "DHS_SA_NCB_52_27.pdf"
+  },
+  {
+    "tender_no": "DHS/SA/NCB/51/27",
+    "original_tender_no": "DHS/SA/NCB/51/27",
+    "category": "DHS/SA",
+    "procurement_type": "NCB",
+    "status": "Open",
+    "closing_date": "11-12-2026 09:00 am",
+    "view_url": "https://www.spc.lk/viewTender.php?hash=20f9c2454d9b013b600290bb609f7528921ef158131eae569e3aed11fd3317f1&url=https%3A%2F%2Fwww.spc.lk%2Fadmin%2Fapi%2Ftenders%2Fdocument%2F35573&id=35573",
+    "document_url": "https://www.spc.lk/admin/api/tenders/document/35573",
+    "document_id": "35573",
+    "filename": "DHS_SA_NCB_51_27.pdf"
   }
 ]
